@@ -9,4 +9,6 @@ nav{
 nav > a{
   padding: .25em .60em;
   text-decoration: none;
+  margin: auto;
+  text-align: center;
 }
