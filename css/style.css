@@ -1,9 +1,11 @@
 nav{
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
-
-  padding: 0.5em .75em;
+  width: 100%;
+  padding: 0.5em;
+  padding-left: 19em;
+  background-color: #262626;
 }
 
 nav > a{
@@ -11,4 +13,18 @@ nav > a{
   text-decoration: none;
   margin: auto;
   text-align: center;
+  color: white;
+}
+
+nav > a:visited{
+  color: white;
+}
+
+nav > a:hover{
+  color: gray;
+  box-shadow: 2px 2px 3px gray;
+}
+
+nav > a:active{
+  color: yellow;
 }
