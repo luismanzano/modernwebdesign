@@ -1,10 +1,5 @@
-@media (min-width: 300px){
+/*@media (min-width: 1000px){*/
 
-  nav{
-
-  }
-
-}
 
 body{
   margin: 0;
@@ -19,7 +14,7 @@ nav{
   font-size: 1.8em;
   font-weight: bold;
   padding: 0.5em;
-  padding-left: 19em;
+  /*padding-left: 19em;*/
   background-color: #262626;
   width: 100%;
 }
@@ -153,4 +148,38 @@ height: 280px;
 
 #adaptationfigure{
   margin: 1% 1% 1% 13%;
+}
+
+/*}*/
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+
+  nav{
+    padding: 0;
+  }
+
+  nav>a{
+    display: block;
+    margin: 0;
+    font-size: 2.1em;
+  }
+
+  p{
+    text-align: justify;
+    padding: 1px;
+  }
+
+  .floatleft, .floatright, .luca, .charlesdarwin{
+    position: static;
+    float: none;
+  }
+
+  #heredityfigure, #variationfigure, #adaptationfigure, .parrafodarwin{
+    margin: 0;
+  }
+
+  .parrafodarwin, .shortinfo>p{
+    padding: 0;
+  }
+
 }
