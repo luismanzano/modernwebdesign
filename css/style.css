@@ -112,10 +112,12 @@ nav > a:active{
 
 .floatleft{
   float: left;
+  position: relative;
 }
 
 .floatright{
   float: right;
+  position: relative;
 }
 
 .parrafodarwin{
@@ -124,4 +126,20 @@ nav > a:active{
 
 #charlesdarwin{
   height: 200px;
+}
+
+#heredityimg{
+height: 280px;
+}
+
+#heredityfigure{
+  margin-right: 15%;
+}
+
+#variationimg{
+  height: 300px;
+}
+
+#variationfigure{
+  margin-left: 12%;
 }
