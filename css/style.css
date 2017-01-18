@@ -102,3 +102,18 @@ nav > a:active{
   bottom: 65px;
   right: 268px;
 }
+
+.floatleft{
+  float: left;;
+  position: relative;
+  bottom:14px;
+  left: 113px;
+}
+
+.parrafodarwin{
+  padding-left: 139px;
+}
+
+#charlesdarwin{
+  height: 200px;
+}
