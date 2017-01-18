@@ -169,6 +169,12 @@ height: 280px;
     padding: 1px;
   }
 
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+  }
+
   .floatleft, .floatright, .luca, .charlesdarwin{
     position: static;
     float: none;
