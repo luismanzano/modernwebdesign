@@ -96,18 +96,26 @@ nav > a:active{
   margin: 0 12%;
 }
 
-.floatright{
+.luca{
   float: right;
   position: relative;
   bottom: 65px;
   right: 268px;
 }
 
-.floatleft{
+.charlesdarwin{
   float: left;;
   position: relative;
   bottom:14px;
   left: 113px;
+}
+
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
 }
 
 .parrafodarwin{
